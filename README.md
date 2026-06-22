@@ -163,7 +163,7 @@ curl -s http://localhost:8080/auth/sessions/count
 ### Accessibility
 - axe DevTools scan: 0 violations on the ledger table
 
-![axe DevTools accessibility scan](results/axe-accessibility-scan.png)
+![axe DevTools accessibility scan](backend/results/axe-accessibility-scan.png)
 
 ## Security Notes
 
