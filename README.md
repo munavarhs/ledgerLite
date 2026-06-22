@@ -153,12 +153,12 @@ curl -s http://localhost:8080/auth/sessions/count
 ### Backend latency under load (k6, `loadtest.js`)
 - **~9,650 requests/second** sustained, **p95 ~13 ms**, **0% error rate**
 
-![k6 backend latency test results](results/k6-latency-test.png)
+![k6 backend latency test results](backend/results/k6-latency-test.png)
 
 ### Concurrent sessions (k6, `sessiontest.js`)
 - **100 concurrent authenticated sessions**, 0% failure
 
-![k6 concurrent session test results](results/k6-session-test.png)
+![k6 concurrent session test results](backend/results/k6-session-test.png)
 
 ### Accessibility
 - axe DevTools scan: 0 violations on the ledger table
